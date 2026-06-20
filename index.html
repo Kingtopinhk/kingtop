@@ -2,66 +2,65 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>KingTop Industrial (Hong Kong) Limited</title>
-<link rel="stylesheet" href="css/style.css">
-<script defer src="js/language.js"></script>
+<meta name="description" content="AI-era precision manufacturing partner.">
+<meta property="og:title" content="KingTop Industrial (Hong Kong) Limited">
+<meta property="og:description" content="AI-era precision manufacturing partner.">
+<meta property="og:type" content="website">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
+<header class="hero">
 <nav>
 <div class="logo">KINGTOP</div>
-<div>
-<a href="#about">About</a>
-<a href="#products">Products</a>
-<a href="#contact">Contact</a>
-<button onclick="toggleLang()">EN / 繁</button>
-</div>
+<button id="langBtn">繁中</button>
 </nav>
-
-<header class="hero">
-<h1 data-en="Precision Manufacturing Partner in the AI Era" data-zh="AI時代的精密製造伙伴">Precision Manufacturing Partner in the AI Era</h1>
-<p data-en="Precision Engineering · Global Connectivity" data-zh="精工智造 · 通拓全球">Precision Engineering · Global Connectivity</p>
+<div class="hero-content">
+<h1 data-en="Precision Manufacturing for the AI Era" data-zh="AI時代的精密製造伙伴">Precision Manufacturing for the AI Era</h1>
+<p data-en="Crafting Intelligence, Connecting the World." data-zh="精工智造，通拓全球。">Crafting Intelligence, Connecting the World.</p>
+</div>
 </header>
 
-<section id="about">
-<h2>About Us</h2>
-<p data-en="KingTop Industrial (Hong Kong) Limited is headquartered in Hong Kong with manufacturing facilities in Suzhou, China."
-data-zh="津拓實業（香港）有限公司立足香港，生產基地位於中國蘇州。">
-KingTop Industrial (Hong Kong) Limited is headquartered in Hong Kong with manufacturing facilities in Suzhou, China.
+<section>
+<h2 data-en="About Us" data-zh="關於我們">About Us</h2>
+<p data-en="Based in Hong Kong with manufacturing facilities in Suzhou, China." data-zh="津拓實業（香港）有限公司立足香港，生產基地位於中國長三角地區蘇州。">
+Based in Hong Kong with manufacturing facilities in Suzhou, China.
 </p>
-<ul>
-<li data-en="Prototype Development" data-zh="來圖打樣">Prototype Development</li>
-<li data-en="Consistent Quality Control" data-zh="穩定品控">Consistent Quality Control</li>
-<li data-en="On-Time Delivery" data-zh="準時交付">On-Time Delivery</li>
-<li data-en="Professional Customs Support" data-zh="專業清關">Professional Customs Support</li>
-<li data-en="Long-Term Warranty" data-zh="長期質保">Long-Term Warranty</li>
-<li data-en="International Certifications" data-zh="安全認證">International Certifications</li>
-</ul>
+<p data-en="Prototype | Quality Control | On-time Delivery | Customs Support | Warranty | Certifications"
+data-zh="來圖打樣｜穩定品控｜準時交付｜專業清關｜長期質保｜安全認證">
+Prototype | Quality Control | On-time Delivery | Customs Support | Warranty | Certifications
+</p>
 </section>
 
-<section id="products">
-<h2>Products</h2>
-<div class="grid">
-<div class="card"><img src="images/robot.jpg"><h3>Robot Joints & Components</h3></div>
-<div class="card"><img src="images/machine.jpg"><h3>Machine Tool Components</h3></div>
-<div class="card"><img src="images/toolsetter.jpg"><h3>Automatic Tool Setter</h3></div>
+<section>
+<h2 data-en="Products" data-zh="產品展示">Products</h2>
+<div class="products">
+<div class="card"><div class="img">Upload Image</div><h3>Robot Joints & Parts</h3></div>
+<div class="card"><div class="img">Upload Image</div><h3>Machine Tool Components</h3></div>
+<div class="card"><div class="img">Upload Image</div><h3>Automatic Tool Setter</h3></div>
 </div>
 </section>
 
-<section id="contact">
-<h2>Contact</h2>
-<p>WhatsApp: +852 4443 0749</p>
-<p>Email: kingtopinhk@gmail.com</p>
-<p>LinkedIn: Coming Soon</p>
-
-<form>
-<input placeholder="Name">
-<input placeholder="Company">
-<input placeholder="Email">
-<input placeholder="Phone / WhatsApp">
-<textarea placeholder="Project Description"></textarea>
-<button type="submit">Submit Inquiry</button>
+<section>
+<h2 data-en="Inquiry" data-zh="詢盤需求">Inquiry</h2>
+<form action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST">
+<input name="name" placeholder="Name">
+<input name="contact" placeholder="Email / WhatsApp">
+<textarea name="message" placeholder="Message"></textarea>
+<button type="submit">Send</button>
 </form>
 </section>
+
+<section>
+<h2 data-en="Contact Us" data-zh="聯絡我們">Contact Us</h2>
+<p>WhatsApp: +852 44430749</p>
+<p>Email: kingtopinhk@gmail.com</p>
+<p>LinkedIn: Add Your URL</p>
+</section>
+
+<a class="wa" href="https://wa.me/85244430749">WhatsApp</a>
+
+<script src="script.js"></script>
 </body>
 </html>
