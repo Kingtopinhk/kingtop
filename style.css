@@ -1,21 +1,26 @@
 
-*{box-sizing:border-box}
-body{margin:0;font-family:Segoe UI,Arial,sans-serif;background:#f4f8fc}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Arial,sans-serif;background:#06152d;color:#fff;line-height:1.6}
 .hero{
 height:100vh;
-background:url('https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?auto=format&fit=crop&w=1800&q=80') center/cover;
-position:relative;color:#fff}
-.overlay{position:absolute;inset:0;background:rgba(0,35,80,.75)}
-nav,.content{position:relative;z-index:2}
-nav{display:flex;justify-content:space-between;padding:25px 50px}
-.content{height:80%;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}
-h1{font-size:4rem;max-width:900px}
-.btn{background:#1e40af;color:#fff;padding:14px 28px;text-decoration:none}
-section{padding:80px 10%}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:25px}
-.card{background:#fff;padding:20px;box-shadow:0 10px 25px rgba(0,0,0,.08)}
-.img{height:220px;background:#dbeafe;display:flex;align-items:center;justify-content:center}
-form{max-width:700px;display:flex;flex-direction:column;gap:12px}
-input,textarea,button{padding:14px}
-button{background:#1e3a8a;color:white;border:none}
-.wa{position:fixed;right:20px;bottom:20px;background:#25d366;color:#fff;padding:15px;text-decoration:none}
+background:
+linear-gradient(rgba(4,18,45,.82),rgba(4,18,45,.82)),
+url('https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=2000&q=80');
+background-size:cover;background-position:center;
+}
+nav{display:flex;justify-content:space-between;padding:25px 60px}
+.logo{font-size:30px;font-weight:bold}
+.hero-content{height:80%;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}
+.hero-content h1{font-size:72px;max-width:1000px}
+.hero-content p{font-size:24px;margin:20px 0}
+.btn{background:#2563eb;padding:15px 30px;color:#fff;text-decoration:none}
+section{padding:90px 10%}
+h2{margin-bottom:30px;font-size:40px}
+.cards,.products{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:25px}
+.card,.product{background:#0c2348;padding:25px;border:1px solid #1e3a8a}
+.img{height:240px;background:#163c7a;display:flex;align-items:center;justify-content:center}
+form{max-width:700px;display:flex;flex-direction:column;gap:15px}
+input,textarea,button{padding:15px}
+button{background:#2563eb;color:white;border:none}
+footer{padding:70px 10%;background:#041024}
+.wa{position:fixed;right:20px;bottom:20px;background:#25d366;color:white;padding:15px;text-decoration:none}
