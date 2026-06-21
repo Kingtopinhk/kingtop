@@ -2,26 +2,25 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>KingTop Industrial (Hong Kong) Limited</title>
-<meta name="description" content="AI-era precision manufacturing partner">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<nav>
-  <div class="logo">KINGTOP</div>
-  <div class="menu">
-    <a href="#about" data-en="About Us" data-zh="關於我們">About Us</a>
-    <a href="#products" data-en="Products" data-zh="產品中心">Products</a>
-    <a href="#contact" data-en="Contact Us" data-zh="聯絡我們">Contact Us</a>
-    <a href="#inquiry" data-en="Inquiry" data-zh="詢盤需求">Inquiry</a>
-    <button id="langBtn">繁中</button>
-  </div>
+<nav class="navbar">
+<div class="logo">KINGTOP</div>
+<div class="menu">
+<a href="#about" data-en="About Us" data-zh="關於我們">About Us</a>
+<a href="#products" data-en="Products" data-zh="產品中心">Products</a>
+<a href="#contact" data-en="Contact Us" data-zh="聯絡我們">Contact Us</a>
+<a href="#inquiry" data-en="Inquiry" data-zh="詢盤需求">Inquiry</a>
+<button id="langBtn">繁中</button>
+</div>
 </nav>
 
 <header class="hero">
-<div class="hero-content">
+<div class="overlay">
 <h1 data-en="Precision Manufacturing for the AI Era" data-zh="AI時代的精密製造伙伴">Precision Manufacturing for the AI Era</h1>
 <p data-en="Crafting Intelligence, Connecting the World" data-zh="精工智造，通拓全球">Crafting Intelligence, Connecting the World</p>
 </div>
@@ -29,24 +28,31 @@
 
 <section id="about">
 <h2 data-en="About Us" data-zh="關於我們">About Us</h2>
-<p data-en="KingTop Industrial (Hong Kong) Limited is based in Hong Kong with manufacturing facilities in Suzhou, China."
-data-zh="津拓實業（香港）有限公司立足香港，生產基地位於中國長三角地區蘇州。">KingTop Industrial (Hong Kong) Limited is based in Hong Kong with manufacturing facilities in Suzhou, China.</p>
+<p data-en="KingTop Industrial (Hong Kong) Limited focuses on precision metal processing, industrial components and AI-related manufacturing solutions."
+data-zh="津拓實業（香港）有限公司專注精密金屬加工、工業零部件製造及人工智能產品配套服務。">
+KingTop Industrial (Hong Kong) Limited focuses on precision metal processing.
+</p>
 </section>
 
 <section id="products">
 <h2 data-en="Products" data-zh="產品中心">Products</h2>
-<div class="card"><h3 data-en="Robot Joints & Parts" data-zh="機器人關節及零件">Robot Joints & Parts</h3></div>
-<div class="card"><h3 data-en="Machine Tool Components" data-zh="機床零部件">Machine Tool Components</h3></div>
-<div class="card"><h3 data-en="Automatic Tool Setter" data-zh="全自動機外對刀儀">Automatic Tool Setter</h3></div>
+<div class="card">Robot Components</div>
+<div class="card">Machine Tool Components</div>
+<div class="card">Automatic Tool Setter</div>
 </section>
 
 <section id="inquiry">
 <h2 data-en="Inquiry Request" data-zh="詢盤需求">Inquiry Request</h2>
-<form>
-<input id="name" placeholder="Name">
-<input id="contact" placeholder="Email / WhatsApp">
-<textarea id="message" placeholder="Project Details"></textarea>
-<button id="submitBtn" type="button">Send Inquiry</button>
+
+<form class="inquiry-form">
+<input placeholder="Name / 姓名">
+<input placeholder="Company / 公司名稱">
+<input placeholder="Email">
+<input placeholder="WhatsApp">
+<input placeholder="Product / 產品名稱">
+<input placeholder="Quantity / 數量">
+<textarea rows="8" placeholder="Project Details / 詳細需求"></textarea>
+<button type="button">Submit Inquiry</button>
 </form>
 </section>
 
