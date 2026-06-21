@@ -1,1 +1,0 @@
-Upload directly to GitHub Pages.
