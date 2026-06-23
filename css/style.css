@@ -1,92 +1,66 @@
 * { box-sizing: border-box; font-family: "Segoe UI", sans-serif; }
-body {
-  margin: 0;
-  background: #0b162a;
-  color: #e5e7eb;
-}
+body { margin: 0; background: #0b162a; color: #e5e7eb; }
+
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  padding: 1rem 3rem;
-  background: #07102a;
+  display: flex; justify-content: space-between;
+  padding: 1rem 3rem; background: #07102a;
 }
-.logo { font-weight: 700; letter-spacing: 2px; }
+.logo { font-weight: 700; letter-spacing: 2px; color: #fff; }
 nav a { color: #cbd5e1; margin-right: 1.5rem; text-decoration: none; }
 nav button {
-  background: transparent;
-  border: 1px solid #3b82f6;
-  color: #3b82f6;
-  padding: 0.3rem 0.8rem;
-  cursor: pointer;
+  background: transparent; border: 1px solid #3b82f6;
+  color: #3b82f6; padding: 0.3rem 0.8rem; cursor: pointer;
 }
+
+/* Hero */
 .hero {
   height: 100vh;
   background: url('../images/banner.jpg') center/cover no-repeat;
-  display: flex;
-  align-items: center;
+  display: flex; align-items: center;
   padding-left: 6rem;
 }
 .hero h1 {
-  font-size: 3.2rem;
-  font-weight: 600;
-  max-width: 800px;
+  font-size: clamp(2.8rem, 5vw, 4.5rem); /* 主口号最大 */
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1.1;
 }
-.hero p {
+.positioning {
   margin-top: 1rem;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
+  color: #60a5fa; /* ABB蓝 */
+}
+.sub {
+  margin-top: 0.8rem;
+  font-size: 1.1rem;
   color: #94a3b8;
 }
-.section {
-  padding: 5rem 6rem;
-}
+
+.section { padding: 5rem 6rem; }
 .dark { background: #07102a; }
+
 .product-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 2rem;
 }
-.product-card {
-  background: #0f1a33;
-  padding: 1rem;
-}
-.placeholder {
-  height: 180px;
-  background: #1e293b;
-  margin-bottom: 1rem;
-}
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  max-width: 500px;
-}
-input, textarea {
-  padding: 0.8rem;
-  background: #1e293b;
-  border: none;
-  color: white;
-}
-button {
-  background: #2563eb;
-  color: white;
-  padding: 0.8rem;
-  border: none;
-  cursor: pointer;
-}
+.product-card { background: #0f1a33; padding: 1rem; }
+.placeholder { height: 180px; background: #1e293b; margin-bottom: 1rem; }
+
+form { display: flex; flex-direction: column; gap: 1rem; max-width: 500px; }
+input, textarea { padding: 0.8rem; background: #1e293b; border: none; color: white; }
+button { background: #2563eb; color: white; padding: 0.8rem; border: none; cursor: pointer; }
+
 .whatsapp-float {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background: #25d366;
-  color: white;
-  padding: 0.6rem 1rem;
-  border-radius: 30px;
+  position: fixed; bottom: 20px; right: 20px;
+  background: #25d366; color: white;
+  padding: 0.6rem 1rem; border-radius: 30px;
   text-decoration: none;
 }
+
+/* 双语控制 */
 .lang-zh {
   display: none;
   font-family: "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
 }
-.lang-en {
-  display: block;
-}
+.lang-en { display: block; }
