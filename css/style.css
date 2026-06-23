@@ -175,4 +175,11 @@ button {
   margin-top: 0.8rem;
   font-size: 1rem;
   color: #94a3b8;
+}.lang-zh {
+  display: none;
+  font-family: "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+}
+
+.lang-en {
+  display: block;
 }
