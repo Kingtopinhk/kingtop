@@ -253,8 +253,7 @@ button {
     font-size: 0.9rem;
   }
 
-  /* ---- Hero：左对齐 ---- */
-  @media (max-width: 768px) {
+  /* ---- Hero：左对齐（✅ 不再嵌套） ---- */
   .hero {
     padding: 0 1.5rem;
     height: auto;
@@ -262,7 +261,10 @@ button {
     justify-content: flex-start;
     text-align: left;
   }
+
+  
 }
+
   .hero-text {
     max-width: 100%;
   }
