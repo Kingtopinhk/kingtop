@@ -234,21 +234,9 @@ button {
 }
 
 /* ---------- 响应式（保护桌面布局） ---------- */
-@media (max-width: 768px) {
-  .navbar {
-    padding: 1rem;
-  }
-
-  .hero {
-    padding: 0 1.5rem;
-  }
-
-  .section {
-    padding: 3rem 1.5rem;
-  }
-}
 /* ===============================
    手机端适配（Mobile Responsive）
+   风格：左对齐 / 工业留白
    =============================== */
 @media (max-width: 768px) {
 
@@ -270,15 +258,21 @@ button {
     font-size: 0.9rem;
   }
 
-  /* ---- Hero 文字 ---- */
+  /* ---- Hero：左对齐 ---- */
   .hero {
     padding: 0 1.5rem;
     height: auto;
     min-height: 100vh;
+    justify-content: flex-start; /* ✅ 横向左对齐 */
+    text-align: left;           /* ✅ 文字左对齐 */
+  }
+
+  .hero-text {
+    max-width: 100%;
   }
 
   .hero-text h1 {
-    font-size: 2.6rem; /
+    font-size: 2.6rem;
   }
 
   .positioning {
@@ -289,15 +283,27 @@ button {
     font-size: 1rem;
   }
 
-  /* ---- Section 间距 ---- */
+  /* ---- Section：左对齐 ---- */
   .section {
     padding: 3rem 1.5rem;
+    text-align: left;
+  }
+
+  .center {
+    text-align: left;
+  }
+
+  /* ---- About 正文 ---- */
+  .about-text {
+    padding: 0;
   }
 
   /* ---- 表单 ---- */
   form {
     width: 100%;
     padding: 0;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   input,
