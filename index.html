@@ -3,117 +3,130 @@
 <head>
   <meta charset="UTF-8" />
   <title>KingTop Industrial (Hong Kong) Limited</title>
-
-  <!-- SEO -->
   <meta name="description" content="KingTop Industrial (Hong Kong) Limited – Precision manufacturing partner in the AI era." />
-  <meta name="keywords" content="Precision Metal, CNC, Robotics Parts, Industrial Components, KingTop" />
-
-  <!-- Open Graph -->
-  <meta property="og:title" content="KingTop Industrial (Hong Kong) Limited" />
-  <meta property="og:description" content="Precision Manufacturing Partner in the AI Era" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://你的用户名.github.io/kingtop-industrial/" />
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
-
 <body>
+  <header class="navbar">
+    <div class="logo">KINGTOP INDUSTRIAL</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#products">Products</a>
+      <a href="#contact">Contact</a>
+      <button id="langToggle">
+        <span class="lang-en">中文 / EN</span>
+        <span class="lang-zh">中 / EN</span>
+      </button>
+    </nav>
+  </header>
 
-<!-- Header -->
-<header class="navbar">
-  <div class="logo">KINGTOP INDUSTRIAL</div>
-  <nav>
-    <a href="#about">About</a>
-    <a href="#products">Products</a>
-    <a href="#contact">Contact</a>
-    <button id="langToggle">中 / EN</button>
-  </nav>
-</header>
+  <section class="hero">
+    <div class="hero-text">
+      <h1>
+        <span class="lang-en">Precision Manufacturing Partner in the AI Era</span>
+        <span class="lang-zh">AI 時代的精密製造伙伴</span>
+      </h1>
+      <p class="slogan">
+        <span class="lang-en">Precision Craftsmanship · Global Reach</span>
+        <span class="lang-zh">精工智造，通拓全球</span>
+      </p>
+      <p class="sub">
+        <span class="lang-en">Precision Metal | Industrial Components | AI Product Solutions</span>
+        <span class="lang-zh">精密金屬加工｜高端工業零部件｜人工智能產品配套</span>
+      </p>
+    </div>
+  </section>
 
-<!-- Hero Banner -->
-<section class="hero">
-<div class="hero-text">
-  <h1>
-    <span class="lang-en">Precision Manufacturing Partner in the AI Era</span>
-    <span class="lang-zh">AI 時代的精密製造伙伴</span>
-  </h1>
+  <section id="about" class="section dark">
+    <h2>
+      <span class="lang-en">About KingTop</span>
+      <span class="lang-zh">關於津拓實業</span>
+    </h2>
+    <p>
+      <span class="lang-en">KingTop Industrial (Hong Kong) Limited is headquartered in Hong Kong with manufacturing base in Suzhou, Yangtze River Delta.</span>
+      <span class="lang-zh">津拓實業（香港）有限公司立足香港，生產基地位於中國長三角地區蘇州。</span>
+    </p>
+    <ul class="features">
+      <li>
+        <span class="lang-en">Prototype from drawings</span>
+        <span class="lang-zh">來圖打樣</span>
+      </li>
+      <li>
+        <span class="lang-en">Stable quality control</span>
+        <span class="lang-zh">穩定品控</span>
+      </li>
+      <li>
+        <span class="lang-en">On-time delivery</span>
+        <span class="lang-zh">準時交付</span>
+      </li>
+      <li>
+        <span class="lang-en">Professional customs clearance</span>
+        <span class="lang-zh">專業清關</span>
+      </li>
+      <li>
+        <span class="lang-en">Long-term warranty</span>
+        <span class="lang-zh">長期質保</span>
+      </li>
+      <li>
+        <span class="lang-en">Certified safety standards</span>
+        <span class="lang-zh">安全認證</span>
+      </li>
+    </ul>
+  </section>
 
-  <p class="slogan">
-    <span class="lang-en">Precision Craftsmanship · Global Reach</span>
-    <span class="lang-zh">精工智造，通拓全球</span>
-  </p>
+  <section id="products" class="section">
+    <h2>
+      <span class="lang-en">Products & Capabilities</span>
+      <span class="lang-zh">產品與能力</span>
+    </h2>
+    <div class="product-grid">
+      <article class="product-card">
+        <div class="placeholder"></div>
+        <h3>
+          <span class="lang-en">Robot Joints & Parts</span>
+          <span class="lang-zh">機器人關節及零件</span>
+        </h3>
+      </article>
+      <article class="product-card">
+        <div class="placeholder"></div>
+        <h3>
+          <span class="lang-en">Machine Tool Components</span>
+          <span class="lang-zh">機床零部件</span>
+        </h3>
+      </article>
+      <article class="product-card">
+        <div class="placeholder"></div>
+        <h3>
+          <span class="lang-en">Automatic Offline Tool Setter</span>
+          <span class="lang-zh">全自動機外對刀儀</span>
+        </h3>
+      </article>
+    </div>
+  </section>
 
-  <p class="sub">
-    <span class="lang-en">Precision Metal | Industrial Components | AI Product Solutions</span>
-    <span class="lang-zh">精密金屬加工｜高端工業零部件｜人工智能產品配套</span>
-  </p>
-</div>
-</section>
+  <section id="contact" class="section dark">
+    <h2>
+      <span class="lang-en">Contact & Inquiry</span>
+      <span class="lang-zh">聯繫與詢盤</span>
+    </h2>
+    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <input type="text" name="name" placeholder="Name / 姓名" required />
+      <input type="email" name="email" placeholder="Email / 電郵" required />
+      <textarea name="message" placeholder="Your inquiry / 您的詢盤內容" required></textarea>
+      <button type="submit">
+        <span class="lang-en">Submit</span>
+        <span class="lang-zh">提交</span>
+      </button>
+    </form>
+    <div class="contact-info">
+      <p>WhatsApp: +852 4443 0749</p>
+      <p>Email: kingtopinhk@gmail.com</p>
+      <p>LinkedIn: [你補上連結]</p>
+    </div>
+  </section>
 
-<!-- About -->
-<section id="about" class="section dark">
-  <h2 data-en="About KingTop" data-zh="關於津拓實業"></h2>
-  <p data-en="KingTop Industrial (Hong Kong) Limited is headquartered in Hong Kong with manufacturing base in Suzhou, Yangtze River Delta."
-     data-zh="津拓實業（香港）有限公司立足香港，生產基地位於中國長三角地區蘇州。">
-  </p>
-
-  <ul class="features">
-    <li data-en="Prototype from drawings" data-zh="來圖打樣"></li>
-    <li data-en="Stable quality control" data-zh="穩定品控"></li>
-    <li data-en="On-time delivery" data-zh="準時交付"></li>
-    <li data-en="Professional customs clearance" data-zh="專業清關"></li>
-    <li data-en="Long-term warranty" data-zh="長期質保"></li>
-    <li data-en="Certified safety standards" data-zh="安全認證"></li>
-  </ul>
-</section>
-
-<!-- Products -->
-<section id="products" class="section">
-  <h2 data-en="Products & Capabilities" data-zh="產品與能力"></h2>
-
-  <div class="product-grid">
-    <article class="product-card">
-      <div class="placeholder"></div>
-      <h3 data-en="Robot Joints & Parts" data-zh="機器人關節及零件"></h3>
-    </article>
-
-    <article class="product-card">
-      <div class="placeholder"></div>
-      <h3 data-en="Machine Tool Components" data-zh="機床零部件"></h3>
-    </article>
-
-    <article class="product-card">
-      <div class="placeholder"></div>
-      <h3 data-en="Automatic Offline Tool Setter" data-zh="全自動機外對刀儀"></h3>
-    </article>
-  </div>
-</section>
-
-<!-- Contact -->
-<section id="contact" class="section dark">
-  <h2 data-en="Contact & Inquiry" data-zh="聯繫與詢盤"></h2>
-
-  <form id="inquiryForm" action="https://formspree.io/f/你的ID" method="POST">
-    <input type="text" name="name" placeholder="Name / 姓名" required />
-    <input type="email" name="email" placeholder="Email / 電郵" required />
-    <textarea name="message" placeholder="Your inquiry / 您的詢盤內容" required></textarea>
-    <button type="submit">Submit / 提交</button>
-  </form>
-
-  <div class="contact-info">
-    <p>WhatsApp: +852 4443 0749</p>
-    <p>Email: kingtopinhk@gmail.com</p>
-    <p>LinkedIn: [你補上連結]</p>
-  </div>
-</form>
-</section>
-
-<!-- WhatsApp Floating -->
-<a class="whatsapp-float" href="https://wa.me/85244430749" target="_blank">
-  WhatsApp
-</a>
-
-<script src="js/main.js"></script>
+  <a class="whatsapp-float" href="https://wa.me/85244430749" target="_blank">WhatsApp</a>
+  <script src="js/main.js"></script>
 </body>
 </html>
