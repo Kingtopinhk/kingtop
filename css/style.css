@@ -56,32 +56,14 @@ nav button {
 }
 
 /* ---------- Hero Banner（大幅压暗） ---------- */
-.hero {
-  height: 55vh;            
-  min-height: unset;
-  padding: 100px 2rem 40px;
-}
 
-
-  background:
-    linear-gradient(
-      135deg,
-      rgba(5, 10, 22, 0.94),
-      rgba(11, 22, 42, 0.88)
-    ),
-    url('../images/banner.jpg') center/cover no-repeat;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
 
 /* ---------- 文字层级（带阴影保险） ---------- */
 /* ---------- Hero Banner（保持压暗） ---------- */
 .hero {
-  height: 100vh;
-  min-height: 620px;
+  height: 55vh;
+  min-height: unset;
+  padding: 100px 2rem 40px;
 
   background:
     linear-gradient(
@@ -93,8 +75,8 @@ nav button {
 
   display: flex;
   align-items: center;
-  justify-content: center;
-  text-align: center;
+  justify-content: flex-start;
+  text-align: left;
 }
 
 /* ---------- 主口号（最大最醒目） ---------- */
