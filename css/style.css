@@ -62,7 +62,7 @@ nav button {
   height: 52vh;      
   max-height: 52vh;
   padding-top: 8vh;
-}
+
 
   background:
     linear-gradient(
@@ -257,9 +257,9 @@ button {
   .hero {
     padding: 0 1.5rem;
     height: auto;
-    min-height: 100vh;
-    justify-content: flex-start; /* ✅ 横向左对齐 */
-    text-align: left;           /* ✅ 文字左对齐 */
+    min-height: unset;
+    justify-content: flex-start; 
+    text-align: left;          
   }
 
   .hero-text {
