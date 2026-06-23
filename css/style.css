@@ -71,7 +71,8 @@ nav button {
 
   display: flex;
   flex-direction: column;        
-  justify-content: center;        
+  justify-content: flex-start;
+  padding-top: 10vh;      
   align-items: center;          
   text-align: center;
 }
