@@ -57,8 +57,18 @@ nav button {
 
 /* ---------- Hero Banner（大幅压暗） ---------- */
 .hero {
-  height: 100vh;
-  min-height: 620px;
+  height: auto;
+  min-height: unset;
+  padding: 110px 2rem 60px; /* 上 中 下 */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.hero-text {
+  max-width: 1100px;
+}
 
   /* ✅ 双层压暗：文字绝对清晰 */
   background:
