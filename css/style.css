@@ -43,9 +43,24 @@ nav button {
 /* Hero */
 .hero {
   height: 100vh;
-  background: url('../images/banner.jpg') center/cover no-repeat;
-  display: flex; align-items: center; justify-content: center;
+  min-height: 620px;
+
+  /* 关键：深蓝 + 黑色双层遮罩 */
+  background:
+    linear-gradient(
+      135deg,
+      rgba(6, 13, 28, 0.92),
+      rgba(11, 22, 42, 0.85)
+    ),
+    url('../images/banner.jpg') center/cover no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
+
+  position: relative;
+}
 }
 .hero h1 {
   font-size: clamp(2.8rem, 5vw, 4.5rem);
