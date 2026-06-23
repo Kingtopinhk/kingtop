@@ -233,11 +233,13 @@ button {
    手机端适配（Mobile Responsive）
    风格：左对齐 / 工业留白
    =============================== */
+/* ---------- 手机端 ---------- */
 @media (max-width: 768px) {
-    .logo {
+
+  /* ---- Logo ---- */
+  .logo {
     font-size: 1.3rem;
   }
-}
 
   /* ---- 导航栏 ---- */
   .navbar {
@@ -336,6 +338,7 @@ button {
     display: none;
   }
 }
+
 
 #products.section {
   padding-top: 0.5rem;
