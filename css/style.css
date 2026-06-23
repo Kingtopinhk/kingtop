@@ -76,8 +76,7 @@ nav button {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  text-align: center;
-  padding-top: 8vh;         
+  text-align: center;      
   overflow: hidden;         
 }
 /* ---------- 主口号（最大最醒目） ---------- */
@@ -253,13 +252,13 @@ button {
     font-size: 0.9rem;
   }
 
-  /* ---- Hero：左对齐 ---- */
+  /* ---- Hero ---- */
   .hero {
     padding: 0 1.5rem;
     height: auto;
     min-height: unset;
-    justify-content: flex-start; 
-    text-align: left;          
+    justify-content: flex-start;
+    text-align: left;
   }
 
   .hero-text {
@@ -278,7 +277,7 @@ button {
     font-size: 1rem;
   }
 
-  /* ---- Section：左对齐 ---- */
+  /* ---- Section ---- */
   .section {
     padding: 3rem 1.5rem;
     text-align: left;
@@ -288,7 +287,6 @@ button {
     text-align: left;
   }
 
-  /* ---- About 正文 ---- */
   .about-text {
     padding: 0;
   }
@@ -306,7 +304,7 @@ button {
     font-size: 1rem;
   }
 
-  /* ---- 产品卡片 ---- */
+  /* ---- 产品 ---- */
   .product-grid {
     grid-template-columns: 1fr;
   }
@@ -315,7 +313,25 @@ button {
   .features {
     grid-template-columns: 1fr;
   }
+
+  /* ---------- 手机端语言切换 ---------- */
+  .lang-zh {
+    display: none;
+  }
+
+  .lang-en {
+    display: block;
+  }
+
+  body.zh .lang-zh {
+    display: block;
+  }
+
+  body.zh .lang-en {
+    display: none;
+  }
 }
+
 #products.section {
   padding-top: 0.5rem;
 }
