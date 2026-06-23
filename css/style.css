@@ -312,12 +312,12 @@ button {
   }
 }
 .product-img {
-  width: 100%;
-  height: 480px;          
-  object-fit: cover;
-  object-position: center; 
-  background: #1e293b;
-  display: block;
+  width: 100% !important;
+  height: 480px !important;
+  object-fit: cover !important;
+  object-position: center !important;
+  background: #1e293b !important;
+  display: block !important;
 }
 
 .product-card {
