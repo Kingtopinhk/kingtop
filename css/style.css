@@ -163,4 +163,16 @@ button {
   padding: 0.6rem 1rem;
   border-radius: 30px;
   text-decoration: none;
+}.slogan {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #60a5fa; /* ABB 蓝 */
+  letter-spacing: 2px;
+}
+
+.sub {
+  margin-top: 0.8rem;
+  font-size: 1rem;
+  color: #94a3b8;
 }
