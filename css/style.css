@@ -19,7 +19,7 @@ body { margin: 0; background: #0b162a; color: #e5e7eb; }
 nav {
   display: flex;
   align-items: center;
-  flex-wrap: nowrap; /* ✅ 禁止竖排 */
+  flex-wrap: nowrap;
 }
 
 nav a {
@@ -27,7 +27,7 @@ nav a {
   margin-right: 1.8rem;
   text-decoration: none;
   font-size: 1rem;
-  white-space: nowrap; /* ✅ 防止折行 */
+  white-space: nowrap;
 }
 
 nav button {
@@ -112,3 +112,10 @@ button {
   font-family: "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
 }
 .lang-en { display: block; }
+
+.whatsapp-float {
+  position: fixed; bottom: 20px; right: 20px;
+  background: #25d366; color: white;
+  padding: 0.6rem 1rem; border-radius: 30px;
+  text-decoration: none;
+}

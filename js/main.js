@@ -10,7 +10,7 @@ function applyLang(lang) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  applyLang("en"); // 强制默认英文
+  applyLang("en");
   document.getElementById("langToggle").addEventListener("click", () => {
     currentLang = currentLang === "en" ? "zh" : "en";
     applyLang(currentLang);
