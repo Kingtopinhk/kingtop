@@ -58,6 +58,7 @@ nav button {
 /* ---------- Hero Banner（全屏背景 · 内容上浮） ---------- */
 .hero {
   height: 100vh;
+  max-height: 70vh;   
   min-height: unset;
   padding: 0 2rem;
 
@@ -70,11 +71,11 @@ nav button {
     url('../images/banner.jpg') center/cover no-repeat;
 
   display: flex;
-  flex-direction: column;        
+  flex-direction: column;
   justify-content: flex-start;
-  padding-top: 10vh;      
-  align-items: center;          
+  align-items: center;
   text-align: center;
+  padding-top: 10vh;
 }
 
 /* ---------- 主口号（最大最醒目） ---------- */
