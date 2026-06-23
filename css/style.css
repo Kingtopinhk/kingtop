@@ -25,6 +25,7 @@ body {
 }
 
 .logo {
+  font-size: 1.6rem; 
   font-weight: 700;
   letter-spacing: 2px;
   color: #ffffff;
@@ -233,6 +234,10 @@ button {
    风格：左对齐 / 工业留白
    =============================== */
 @media (max-width: 768px) {
+    .logo {
+    font-size: 1.3rem;
+  }
+}
 
   /* ---- 导航栏 ---- */
   .navbar {
