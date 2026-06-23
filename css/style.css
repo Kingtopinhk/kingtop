@@ -70,10 +70,10 @@ nav button {
     url('../images/banner.jpg') center/cover no-repeat;
 
   display: flex;
-  align-items: flex-start;     
+  align-items: flex-start;    
   justify-content: center;    
-  text-align: center;         
-  padding-top: 14vh;       
+  text-align: center;        
+  padding-top: 14vh;         
 }
 
 /* ---------- 主口号（最大最醒目） ---------- */
@@ -146,6 +146,25 @@ nav button {
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 2rem;
   margin-top: 2rem;
+}
+
+.product-img {
+  width: 100% !important;
+  height: 480px !important;
+  object-fit: cover !important;
+  object-position: center !important;
+  background: #1e293b !important;
+  display: block !important;
+}
+
+.product-card {
+  background: #0f1a33;
+  padding: 0;
+  overflow: hidden;
+}
+
+.product-card h3 {
+  padding: 1rem;
 }
 
 
@@ -291,22 +310,4 @@ button {
   .features {
     grid-template-columns: 1fr;
   }
-}
-.product-img {
-  width: 100% !important;
-  height: 480px !important;
-  object-fit: cover !important;
-  object-position: center !important;
-  background: #1e293b !important;
-  display: block !important;
-}
-
-.product-card {
-  background: #0f1a33;
-  padding: 0;
-  overflow: hidden;
-}
-
-.product-card h3 {
-  padding: 1rem;
 }
