@@ -254,14 +254,15 @@ button {
   }
 
   /* ---- Hero：左对齐 ---- */
+  @media (max-width: 768px) {
   .hero {
     padding: 0 1.5rem;
     height: auto;
-    min-height: 100vh;
-    justify-content: flex-start; /* ✅ 横向左对齐 */
-    text-align: left;           /* ✅ 文字左对齐 */
+    min-height: unset;      
+    justify-content: flex-start;
+    text-align: left;
   }
-
+}
   .hero-text {
     max-width: 100%;
   }
