@@ -247,3 +247,71 @@ button {
     padding: 3rem 1.5rem;
   }
 }
+/* ===============================
+   手机端适配（Mobile Responsive）
+   =============================== */
+@media (max-width: 768px) {
+
+  /* ---- 导航栏 ---- */
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+
+  .navbar nav {
+    margin-top: 0.8rem;
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .navbar nav a {
+    margin-right: 1rem;
+    font-size: 0.9rem;
+  }
+
+  /* ---- Hero 文字 ---- */
+  .hero {
+    padding: 0 1.5rem;
+    height: auto;
+    min-height: 100vh;
+  }
+
+  .hero-text h1 {
+    font-size: 2.6rem; /
+  }
+
+  .positioning {
+    font-size: 1.3rem;
+  }
+
+  .sub {
+    font-size: 1rem;
+  }
+
+  /* ---- Section 间距 ---- */
+  .section {
+    padding: 3rem 1.5rem;
+  }
+
+  /* ---- 表单 ---- */
+  form {
+    width: 100%;
+    padding: 0;
+  }
+
+  input,
+  textarea {
+    font-size: 1rem;
+  }
+
+  /* ---- 产品卡片 ---- */
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* ---- 六大能力 ---- */
+  .features {
+    grid-template-columns: 1fr;
+  }
+}
