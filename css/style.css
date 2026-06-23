@@ -58,7 +58,7 @@ nav button {
 /* ---------- Hero Banner（全屏背景 · 内容上浮） ---------- */
 .hero {
   height: 100vh;
-  max-height: 70vh;   
+  max-height: unset;   
   min-height: unset;
   padding: 0 2rem;
 
