@@ -59,8 +59,8 @@ nav button {
 /* ---------- Hero Banner（强制压缩高度） ---------- */
 /* ---------- Hero Banner（桌面端 · 强制压扁） ---------- */
 .hero {
-  height: 52vh;      
-  max-height: 52vh;
+  height: 46vh;      
+  max-height: 46vh;
   padding-top: 8vh;
 
 
@@ -317,5 +317,5 @@ button {
   }
 }
 #products.section {
-  padding-top: 0rem;
+  padding-top: 0.5rem;
 }
