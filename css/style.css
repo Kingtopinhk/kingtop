@@ -1,9 +1,12 @@
 * { box-sizing: border-box; font-family: "Segoe UI", sans-serif; }
+
 body {
   margin: 0;
   background: #0b162a;
   color: #e5e7eb;
 }
+
+/* Navbar */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -19,6 +22,8 @@ nav button {
   padding: 0.3rem 0.8rem;
   cursor: pointer;
 }
+
+/* Hero */
 .hero {
   height: 100vh;
   background: url('../images/banner.jpg') center/cover no-repeat;
@@ -36,10 +41,14 @@ nav button {
   font-size: 1.2rem;
   color: #94a3b8;
 }
+
+/* Sections */
 .section {
   padding: 5rem 6rem;
 }
 .dark { background: #07102a; }
+
+/* Products */
 .product-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -54,6 +63,8 @@ nav button {
   background: #1e293b;
   margin-bottom: 1rem;
 }
+
+/* Form */
 form {
   display: flex;
   flex-direction: column;
@@ -73,6 +84,8 @@ button {
   border: none;
   cursor: pointer;
 }
+
+/* WhatsApp */
 .whatsapp-float {
   position: fixed;
   bottom: 20px;
